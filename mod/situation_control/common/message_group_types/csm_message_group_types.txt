@@ -1,0 +1,4 @@
+﻿# Situation Control: own foldable group in the Message Settings window
+csm_situation_control = {
+	sort_order = 96
+}

@@ -1,0 +1,21 @@
+﻿csm_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_misc.dds"
+	}
+	desc = csm_decision_desc
+	selection_tooltip = csm_decision_tooltip
+	confirm_text = csm_decision_confirm
+
+	ai_check_interval = 0
+
+	is_shown = {
+		is_ai = no
+	}
+
+	effect = {
+		trigger_event = csm.1
+	}
+
+	ai_potential = { always = no }
+	ai_will_do = { base = 0 }
+}

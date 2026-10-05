@@ -1,0 +1,5 @@
+﻿# Situation Control: catalysts fired without an actor (the mod always fires them that way)
+csm_situation_control = {
+	display = hidden
+	group = csm_situation_control
+}
