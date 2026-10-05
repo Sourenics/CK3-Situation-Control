@@ -9,8 +9,7 @@ Supported: **The Christian Church**, the **Dynastic Cycle**, the **Iberian Strug
 - **Game version:** 1.20.x
 - **Mod version:** 1.1.0
 - **Author:** [Sourenics](https://github.com/Sourenics)
-- **Steam Workshop:** *link coming soon*
-
+- **Steam Workshop:** https://steamcommunity.com/sharedfiles/filedetails/?id=3814069460
 ## Features
 
 A new decision, **Situation Control**, opens a menu listing every situation active in your game:
