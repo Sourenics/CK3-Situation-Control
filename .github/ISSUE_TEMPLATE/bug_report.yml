@@ -58,14 +58,6 @@ body:
     validations:
       required: true
 
-  - type: input
-    id: mod-version
-    attributes:
-      label: Mod version
-      placeholder: "1.1.0"
-    validations:
-      required: true
-
   - type: dropdown
     id: source
     attributes:
