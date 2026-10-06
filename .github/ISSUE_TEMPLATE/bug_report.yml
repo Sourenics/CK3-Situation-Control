@@ -1,0 +1,113 @@
+name: Bug report
+description: Something does not work as expected
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting! Please fill in every required field: without them we usually cannot reproduce the problem.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: Describe the problem. What did you expect to happen instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What did you click, in which order?
+      placeholder: |
+        1. Open the Situation Control decision
+        2. Choose ...
+        3. ...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: situation
+    attributes:
+      label: Situation involved
+      options:
+        - The Christian Church
+        - Dynastic Cycle
+        - Iberian Struggle
+        - Iranian Intermezzo
+        - Menu / decision (not a specific situation)
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: phases
+    attributes:
+      label: Phases, intensity and mode
+      description: Current phase, target phase, intensity and mode (silent or real catalysts), if relevant.
+      placeholder: "From Fragile Unity towards Concord, x5, silent mode"
+
+  - type: input
+    id: game-version
+    attributes:
+      label: Game version
+      description: Shown in the main menu.
+      placeholder: "1.20.0.3"
+    validations:
+      required: true
+
+  - type: input
+    id: mod-version
+    attributes:
+      label: Mod version
+      placeholder: "1.1.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: source
+    attributes:
+      label: Installed from
+      options:
+        - Steam Workshop
+        - Manual (GitHub)
+    validations:
+      required: true
+
+  - type: textarea
+    id: dlcs-mods
+    attributes:
+      label: Active DLCs and full mod list (in load order)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: only-this-mod
+    attributes:
+      label: Does it also happen with only Situation Control enabled?
+      options:
+        - "Yes"
+        - "No"
+        - Not tested
+    validations:
+      required: true
+
+  - type: textarea
+    id: error-log
+    attributes:
+      label: error.log
+      description: |
+        Drag and drop your error.log file into this box. It is overwritten every time the game starts: copy it right after the problem, before relaunching.
+        Windows: Documents/Paradox Interactive/Crusader Kings III/logs/error.log
+        Linux: ~/.local/share/Paradox Interactive/Crusader Kings III/logs/error.log
+        macOS: ~/Documents/Paradox Interactive/Crusader Kings III/logs/error.log
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Optional, but very helpful for visual problems. Drag and drop images here.
