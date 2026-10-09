@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.2.0
+
+- Full Spanish translation of the mod's own texts (menus, descriptions, tooltips and message settings).
+- Localization files for French, German, Russian, Polish, Korean, Simplified Chinese and Japanese, showing the English texts, so no raw keys appear in those languages.
+
 ## 1.1.0
 
 - Catalyst filter verified against the game's `common/` and `events/` folders: each catalyst is classified by where the game actually fires it.

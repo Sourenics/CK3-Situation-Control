@@ -7,9 +7,11 @@ A Crusader Kings III mod that lets you steer the game's great situations and str
 Supported: **The Christian Church**, the **Dynastic Cycle**, the **Iberian Struggle** and the **Iranian Intermezzo**.
 
 - **Game version:** 1.20.x
-- **Mod version:** 1.1.0
+- **Mod version:** 1.2.0
+- **Languages:** English and Spanish (other game languages show the English texts)
 - **Author:** [Sourenics](https://github.com/Sourenics)
-- **Steam Workshop:** https://steamcommunity.com/sharedfiles/filedetails/?id=3814069460
+- **Steam Workshop:** *link coming soon*
+
 ## Features
 
 A new decision, **Situation Control**, opens a menu listing every situation active in your game:
@@ -30,6 +32,14 @@ A new decision, **Situation Control**, opens a menu listing every situation acti
 
 - **The Christian Church and the Dynastic Cycle** use a **silent mode** by default: the exact same points, without notifications. You can switch to real catalysts to record them in the situation history.
 - **Struggles** always fire real catalysts. Their notifications go to a new **Situation Control** category in the Message Settings, hidden by default.
+
+## Languages
+
+- **English** and **Spanish**: all menu texts are translated.
+- **French, German, Russian, Polish, Korean, Simplified Chinese and Japanese**: menu texts are shown in English.
+- In every language, situation, phase and catalyst names come from the game's own localization, so they always appear in your game language.
+
+Translations are welcome: open an issue or a pull request with the file for your language.
 
 ## Installation
 
