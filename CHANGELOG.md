@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.1
+
+- Fixed the catalyst pages overflowing the event window: with many catalysts, the last options (such as "Close") fell outside the window and the description was hidden.
+- Catalyst pages now show up to 5 catalysts each. "More catalysts…" cycles through the pages and returns to the first one after the last, so the separate "Previous catalysts…" option is no longer needed.
+- Shorter hint at the top of the catalyst pages, so the current phase, target and intensity stay visible.
+
 ## 1.2.0
 
 - Full Spanish translation of the mod's own texts (menus, descriptions, tooltips and message settings).

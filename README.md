@@ -7,7 +7,7 @@ A Crusader Kings III mod that lets you steer the game's great situations and str
 Supported: **The Christian Church**, the **Dynastic Cycle**, the **Iberian Struggle** and the **Iranian Intermezzo**.
 
 - **Game version:** 1.20.x
-- **Mod version:** 1.2.0
+- **Mod version:** 1.2.1
 - **Languages:** English and Spanish (other game languages show the English texts)
 - **Author:** [Sourenics](https://github.com/Sourenics)
 - **Steam Workshop:** [Situation Control](https://steamcommunity.com/sharedfiles/filedetails/?id=3814069460)
